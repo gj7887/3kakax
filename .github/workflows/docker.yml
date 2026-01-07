@@ -24,8 +24,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            gj7887/3kakax
-            ghcr.io/gj7887/3kakax
+            kaka163/3kakax
+            ghcr.io/kaka163/3kakax
           tags: |
             type=ref,event=branch
             type=ref,event=tag
