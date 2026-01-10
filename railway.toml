@@ -14,3 +14,7 @@ ports = [{ port = 2053, handlers = ["HTTP"] }]
 
 [variables]
 XUI_ENABLE_FAIL2BAN = "false"
+
+[[services.volumes]]
+name = "x-ui-data"
+mountPath = "/etc/x-ui"
